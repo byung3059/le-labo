@@ -88,6 +88,7 @@
     width: 100%;
     text-align: left;
     font-family: "Noto Sans KR";
+    color: var(--black-color);
 }
 
 .sub_detail .inner .right .option_box .opt button::before {
@@ -110,6 +111,7 @@
     font-weight: 300;
     line-height: 59px;
     margin: 0 0 0 16px;
+    color: var(--black-color);
 }
 
 .sub_detail .inner .right .option_box .opt button>ul {
@@ -131,6 +133,7 @@
     padding: 0 48px;
     line-height: 32px;
     border-bottom: 1px solid var(--line-color);
+    color: var(--black-color);
 }
 
 .sub_detail .inner .right .option_box .opt button>ul>li:last-child {
