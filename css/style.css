@@ -439,6 +439,22 @@
     }
 }
 
+@media(max-width:600px) {
+    .main_founder .inner {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .main_founder .inner .tit {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main_founder .inner .img_box {
+        /* display: none; */
+    }
+}
+
 
 
 
