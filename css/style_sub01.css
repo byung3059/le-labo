@@ -93,7 +93,7 @@
 
 @media(max-width:768px) {
     .sub_product .inner {
-
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }

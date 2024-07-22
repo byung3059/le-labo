@@ -63,9 +63,6 @@
 
 .sub_detail .inner .right .txt_box .desc {
     margin: 0 0 24px 0;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
 }
 
 .sub_detail .inner .right .txt_box .price {
@@ -122,6 +119,7 @@
     z-index: 9;
 
     border: 1px solid var(--line-color);
+    border-top: none;
     background: var(--white-color);
 }
 
@@ -152,7 +150,7 @@
 @media(max-width:768px) {
     .sub_detail .inner {
         flex-direction: column;
-        gap: 40px;
+        gap: 0;
     }
 
     .sub_detail .inner .left .detail_slide .itm .img_box img {
@@ -169,6 +167,10 @@
     }
 
     .sub_detail .inner .right .option_box {
+        margin: 0 0 24px 0;
+    }
+
+    .sub_detail .inner .left {
         margin: 0 0 24px 0;
     }
 }
