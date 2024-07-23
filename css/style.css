@@ -557,8 +557,8 @@
 
 .main_lab .inner .left .lab .txt strong {
     text-align: center;
-    font-size: 16px;
     margin: 0 0 16px 0;
+    font-size: 16px;
     color: var(--white-color);
 }
 
@@ -661,6 +661,18 @@
     .footer {
         padding: 0 16px;
     }
+
+    .footer .ft {
+        padding: 20px 0;
+    }
+
+    .footer .ft>ul {
+        gap: 8px;
+    }
+
+    .footer .fb {
+        padding: 20px 0;
+    }
 }
 
 @media(max-width:500px) {
@@ -674,7 +686,13 @@
         display: none;
     }
 
+    .footer .ft>ul>li>a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
     .footer .fb>ul>li {
-        line-height: 24px;
+        font-size: 12px;
+        line-height: 16px;
     }
 }
