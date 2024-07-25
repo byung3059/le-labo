@@ -1,9 +1,12 @@
 :root {
-    --line-color: #dddddd;
     --white-color: #ffffff;
     --black-color: #000000;
-    --desc-color: #444444;
     --background-color: #f5f5f5;
+    --line-color: #dddddd;
+    --desc-color: #444444;
+    --footer-back: #444444;
+    --footer-color: #bbbbbb;
+    --footer-line: #666666;
 }
 
 body {
