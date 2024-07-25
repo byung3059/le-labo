@@ -209,16 +209,15 @@
         font-weight: 400;
         line-height: 48px;
         text-align: center;
-
     }
 
     .header .inner .gnb .smenu {
-        position: relative;
         display: none;
+        position: relative;
         height: 200px;
         line-height: 32px;
-        overflow-y: auto;
         background: #8C7E6C;
+        overflow-y: auto;
     }
 
     .header .inner .gnb .smenu>li~li {
@@ -236,14 +235,14 @@
     }
 
     .header .inner .mbtn {
+        display: block;
         position: fixed;
         right: 16px;
         z-index: 999;
-        display: block;
-        font-size: 0;
         width: 30px;
         height: 30px;
-
+        font-size: 0;
+        cursor: pointer;
     }
 
     .header .inner .mbtn::before {
