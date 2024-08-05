@@ -83,5 +83,20 @@ $(function () {
     })
 
 
+    $('.to_top button').on('click', function () {
+        $('html, body').animate({ scrollTop: 0, }, 300)
+    });
+
+    $(window).on('scroll', function () {
+        let sct = $(window).scrollTop();
+        console.log(sct);
+        if (sct > 830) {
+            $('.to_top').addClass('on')
+        } else {
+            $('.to_top').removeClass('on')
+        }
+    })
+
+
 });
 
