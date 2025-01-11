@@ -77,6 +77,14 @@ body {
     font-weight: 500;
 }
 
+@media(max-width:1370px){
+
+        .default {
+        padding: 100px 80px;
+    }
+    
+}
+
 @media(max-width:768px) {
     .default {
         padding: 40px 16px;
