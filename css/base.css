@@ -79,8 +79,8 @@ body {
 
 @media(max-width:1370px){
 
-        .default {
-        padding: 100px 80px;
+        .inner {
+        padding: 0 40px;
     }
     
 }
