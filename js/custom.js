@@ -7,32 +7,29 @@ $(function () {
     })
 
 
-    $('.header .inner .gnb>ul>li>a').on('click', function (e) {
+    $('.header .inner .sub_box_btn').on('click', function (e) {
         $(this).parent().siblings().find('.sub_box').stop().slideUp();   // 메뉴 클릭하면 하나만 나오게
 
         if ($('.header .inner .gnb').hasClass('on')) {
-            e.preventDefault(); // a링크 이벤트 없애기
+            e.preventDefault();
 
             $(this).next().stop().slideToggle();
         }
     })
 
     $('.header .inner .gnb .sub_box>ul>li>a').on('click', function (e) {
-        $(this).parent().siblings().find('.smenu').stop().slideUp();   // 메뉴 클릭하면 하나만 나오게
+        $(this).parent().siblings().find('.smenu').stop().slideUp();
 
 
         if ($('.header .inner .gnb').hasClass('on')) {
-            e.preventDefault(); // a링크 이벤트 없애기
+            e.preventDefault();
 
             $(this).next().stop().slideToggle();
         } else ($('.header .gnb .sub_box').removeAttr('style'));
 
     })
 
-    $('.header .inner .gnb .smenu>li>a').on('click', function (e) {
 
-        e.preventDefault();
-    })
 
     $(window).on('resize', function () {
         $('.header .gnb').removeClass('on');
