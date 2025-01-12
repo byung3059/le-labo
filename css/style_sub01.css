@@ -114,7 +114,8 @@
 
     .sub_product .inner .pro .desc {
         display: inline-block;
-        
+        margin: 0 0 12px 0;
+        font-size:12px;
     }
 
     .sub_product .inner .pro span {
